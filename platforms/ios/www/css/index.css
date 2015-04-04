@@ -1,0 +1,57 @@
+body
+{
+    font-family: Verdana, Arial;
+    font-size: 18px;
+    background-color: #D4D0B4;
+}
+
+h1
+{
+    background-color: #626b5e;
+    font-size: 1em;
+    color: #F5F6F5;
+    line-height: 2em;
+    text-align: center;
+}
+
+#inputNewTask, #buttonAddNewTask
+{
+    display: blocks;
+    width: 98%;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #757769;
+    border: 0;
+    height: 2em;
+    font-size: 1em;
+    color: #F5F6F5;
+}
+
+#taskList
+{
+    margin-top: 10px;
+}
+
+#taskList > li
+{
+    background: -webkit-linear-gradient(#FFF,  #F6F6F7);
+    background: -o-linear-gradient(#FFF,  #F6F6F7);    
+    background: -moz-linear-gradient(#FFF,  #F6F6F7);
+    background: linear-gradient(#FFF,  #F6F6F7);
+    border: 1px solid #BBB6AF;
+    line-height: 2em;
+    color: #929292;
+    margin-top: 2px;
+}
+
+#taskList span
+{
+    margin-left: 5px;
+}
+
+.done
+{
+    text-decoration: line-through;
+    opacity: 0.5;
+}
